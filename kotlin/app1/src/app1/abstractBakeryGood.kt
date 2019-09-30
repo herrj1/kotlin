@@ -6,7 +6,7 @@ abstract class abstractBakeryGood(val flavour: String) {
 	}
 	
 	/**fun name(): String{
-		return "bakery goods"
+		return "bakery goods "
 	}*/
 	
 	abstract fun name(): String

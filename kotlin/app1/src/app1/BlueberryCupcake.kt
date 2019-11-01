@@ -8,13 +8,12 @@ class BlueberryCupcake {
 //	val myCupcake = BlueberryCupcake()
 //	println("My cupcake has ${myCupcake.flavour}")
 //}
-
 /**fun main(args: Array<String>){
 	val myCupcake = BlueberryCupcake()
 	myCupcake.flavour = "Almond"
 	println("My cupcake has ${myCupcake.flavour}")
 }*/
-//the above throws an error
+//the above throws an errors
 
 class AlmondCupcake{
 	val flavour = "Almond"

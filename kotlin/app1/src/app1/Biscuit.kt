@@ -6,13 +6,11 @@ class Biscuit(val flavour: String) {
 		return "nom, nom, nom, nom... delicious $flavour biscuit"
 	}
 }
-
 class Cupcake(val flavour: String){
 	fun eat(): String{
 		return "nom, nom, nom... delicious $flavour cupcake"
 	}
-}
-*/
+}*/
 open class BakeryGood(val flavour: String){
 	fun eat(): String{
 		return "nom, nom, nom... delicious $flavour ${name()}"

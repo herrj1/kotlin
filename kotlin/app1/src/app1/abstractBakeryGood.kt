@@ -2,7 +2,7 @@ package app1
 
 abstract class abstractBakeryGood(val flavour: String) {
 	fun eat(): String{
-		return "nom, nom, nom,... delicious $flavour ${name()}"
+		return "nom, nom, nom, nom,... delicious $flavour ${name()}"
 	}
 	
 	/**fun name(): String{

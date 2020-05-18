@@ -1,3 +1,10 @@
+/**
+
+  author: herrj1
+
+*/
+
+
 package app1
 
 class BlueberryCupcake {
@@ -26,6 +33,6 @@ class AlmondCupcake{
 }
 */
 fun main(args: Array<String>){
-	val myBlueberryCupcake = Cupcake("Blueberry")
+	val myBlueberryCupcake = Cupcake("Apple")
 	println(myBlueberryCupcake.eat())
 }

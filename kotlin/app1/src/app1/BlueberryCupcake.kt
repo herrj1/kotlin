@@ -1,9 +1,17 @@
 /**
 
+<<<<<<< HEAD
   Author: herrj1
 
 */
 
+=======
+  author: herrj1
+
+*/
+
+
+>>>>>>> fcf620b5cbf026b1352ceabacd6802b4fe8134c7
 package app1
 
 class BlueberryCupcake {
@@ -32,6 +40,10 @@ class AlmondCupcake{
 }
 */
 fun main(args: Array<String>){
+<<<<<<< HEAD
 	val myBlueberryCupcake = Cupcake("Blueberry Tennesse")
+=======
+	val myBlueberryCupcake = Cupcake("Apple")
+>>>>>>> fcf620b5cbf026b1352ceabacd6802b4fe8134c7
 	println(myBlueberryCupcake.eat())
 }

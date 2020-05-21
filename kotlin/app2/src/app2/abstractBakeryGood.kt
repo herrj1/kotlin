@@ -11,11 +11,11 @@ abstract class abstractBakeryGood(val flavour: String) {
 	fun eat(): String{
 		return "nom, nom, nom, nom,... delicious $flavour ${name()}"
 	}
-	
+        /**	
 	fun name(): String{
 		return "bakery goods "
 	}
-	
+	*/
 	abstract fun name(): String
 }
 
